@@ -9,9 +9,10 @@ import 'package:path/path.dart';
 const url = "https://cheezam.fr/api/cheezam/prediction";
 
 class CheezamApi {
-  static Future<Response?> cheeze(File cheeseImage) async {
+  static Future<Response> cheeze(File cheeseImage) async {
     // open a bytestream
-    var stream = http.ByteStream(DelegatingStream.typed(cheeseImage.openRead()));
+    var stream =
+        http.ByteStream(DelegatingStream.typed(cheeseImage.openRead()));
     // get file length
     var length = await cheeseImage.length();
 
