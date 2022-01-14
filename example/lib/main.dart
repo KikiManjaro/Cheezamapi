@@ -7,8 +7,7 @@ void main() {
 }
 
 Future<void> findCheeze() async {
-  File file = File(
-      "C:/Users/kylia/Documents/FlutterProject/cheezamapi/assets/images/fourme-d-ambert.jpg");
+  File file = File("PATH_TO_FILE");
   var cheeze = await CheezamApi.cheeze(file);
   print(cheeze);
 }
