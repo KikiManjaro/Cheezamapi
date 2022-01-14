@@ -34,7 +34,6 @@ class CheezamApi {
 
     // send
     var response = await request.send();
-    print(response.statusCode);
 
     // listen for response
     String repStr = await response.stream.bytesToString();

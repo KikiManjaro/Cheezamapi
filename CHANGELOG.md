@@ -1,4 +1,7 @@
 ## 1.0.2
+- Dependencies fixes.
+
+## 1.0.2
 - Example fixes.
 
 ## 1.0.1

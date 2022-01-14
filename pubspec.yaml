@@ -1,6 +1,6 @@
 name: cheezamapi
 description: Cheezamapi is a non-official API of [Cheezam](https://www.cheezam.fr/) made using scraping.
-version: 1.0.2
+version: 1.0.3
 homepage: https://github.com/KikiManjaro/Cheezamapi
 
 environment:
@@ -10,10 +10,10 @@ dev_dependencies:
   build_runner: ^2.1.7
   json_serializable: ^6.1.4
 dependencies:
-  http: ^0.13.4
-  json_annotation: ^4.4.0
-  async: ^2.8.2
-  path: ^1.8.1
+  http: ^0.13.0
+  json_annotation: ^4.0.0
+  async: ^2.0.0
+  path: ^1.6.0
 
 assets:
   - assets/images/
