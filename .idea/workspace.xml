@@ -13,7 +13,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/cheezamapi.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/cheezamapi.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/entities/prediction.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/entities/prediction.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/entities/prediction.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/entities/prediction.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/entities/recommandation.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/entities/recommandation.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/entities/recommandation.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/entities/recommandation.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/entities/response.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/entities/response.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/entities/response.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/entities/response.g.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,5 +106,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

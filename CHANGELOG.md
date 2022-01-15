@@ -1,3 +1,9 @@
+## 1.0.6
+- All fields are now nullables.
+
+## 1.0.5
+- String are now nullables.
+
 ## 1.0.4
 - Minor fixes.
 

@@ -1,12 +1,13 @@
 import 'package:json_annotation/json_annotation.dart';
+
 part 'prediction.g.dart';
 
 @JsonSerializable()
 class Prediction {
-  var detection_box;
-  String humanname = "";
-  String label = "";
-  double probability = -1.0;
+  Map? detection_box;
+  String? humanname;
+  String? label;
+  double? probability;
 
   Prediction();
 

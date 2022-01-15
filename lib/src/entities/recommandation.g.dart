@@ -8,15 +8,15 @@ part of 'recommandation.dart';
 
 Recommandation _$RecommandationFromJson(Map<String, dynamic> json) =>
     Recommandation()
-      ..affiliatedURL = json['affiliatedURL'] as String
-      ..desc = json['desc'] as String
-      ..descriptiveURL = json['descriptiveURL'] as String
-      ..group = json['group'] as String
-      ..imgurl = json['imgurl'] as String
-      ..label = json['label'] as String
-      ..name = json['name'] as String
-      ..note = (json['note'] as num).toDouble()
-      ..region = json['region'] as String;
+      ..affiliatedURL = json['affiliatedURL'] as String?
+      ..desc = json['desc'] as String?
+      ..descriptiveURL = json['descriptiveURL'] as String?
+      ..group = json['group'] as String?
+      ..imgurl = json['imgurl'] as String?
+      ..label = json['label'] as String?
+      ..name = json['name'] as String?
+      ..note = (json['note'] as num?)?.toDouble()
+      ..region = json['region'] as String?;
 
 Map<String, dynamic> _$RecommandationToJson(Recommandation instance) =>
     <String, dynamic>{

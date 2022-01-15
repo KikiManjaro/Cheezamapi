@@ -6,15 +6,15 @@ part 'response.g.dart';
 
 @JsonSerializable()
 class Response {
-  String advice = "";
-  Map<String, int> basicstats = {};
-  int infos = -1;
-  int nobject = -1;
-  int nuniqueobject = -1;
-  List<Prediction> predictions = <Prediction>[];
-  List<Recommandation> rec = <Recommandation>[];
-  String source = "";
-  List<String> uniqueobject = <String>[];
+  String? advice;
+  Map<dynamic, int?>? basicstats;
+  int? infos;
+  int? nobject;
+  int? nuniqueobject;
+  List<Prediction?>? predictions;
+  List<Recommandation?>? rec;
+  String? source;
+  List<String?>? uniqueobject;
 
   Response();
 

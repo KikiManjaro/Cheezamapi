@@ -1,6 +1,6 @@
 name: cheezamapi
 description: Cheezamapi is a non-official API of [Cheezam](https://www.cheezam.fr/) made using scraping.
-version: 1.0.4
+version: 1.0.6
 homepage: https://github.com/KikiManjaro/Cheezamapi
 
 environment:

@@ -1,17 +1,18 @@
 import 'package:json_annotation/json_annotation.dart';
+
 part 'recommandation.g.dart';
 
 @JsonSerializable()
 class Recommandation {
-  String affiliatedURL = "";
-  String desc = "";
-  String descriptiveURL = "";
-  String group = "";
-  String imgurl = "";
-  String label = "";
-  String name = "";
-  double note = -1.0;
-  String region = "";
+  String? affiliatedURL;
+  String? desc;
+  String? descriptiveURL;
+  String? group;
+  String? imgurl;
+  String? label;
+  String? name;
+  double? note;
+  String? region;
 
   Recommandation();
 
