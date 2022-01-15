@@ -4,7 +4,7 @@ part 'prediction.g.dart';
 
 @JsonSerializable()
 class Prediction {
-  Map? detection_box;
+  List<dynamic>? detection_box;
   String? humanname;
   String? label;
   double? probability;

@@ -1,3 +1,6 @@
+## 1.0.7
+- Fix detection box type.
+
 ## 1.0.6
 - All fields are now nullables.
 

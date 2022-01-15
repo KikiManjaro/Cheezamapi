@@ -10,7 +10,7 @@ In your `pubspec.yaml` root add:
 
 ```yaml
 dependencies:
-  cheezamapi: ^1.0.6
+  cheezamapi: ^1.0.7
 ```
 
 then,
