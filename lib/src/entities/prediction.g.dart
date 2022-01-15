@@ -7,7 +7,7 @@ part of 'prediction.dart';
 // **************************************************************************
 
 Prediction _$PredictionFromJson(Map<String, dynamic> json) => Prediction()
-  ..detection_box = json['detection_box'] as Map<String, dynamic>?
+  ..detection_box = json['detection_box'] as List<dynamic>?
   ..humanname = json['humanname'] as String?
   ..label = json['label'] as String?
   ..probability = (json['probability'] as num?)?.toDouble();
