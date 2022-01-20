@@ -40,6 +40,12 @@ class CheezamApi {
     String repStr = await response.stream.bytesToString();
     String val =
         repStr.replaceAll("\n", "").replaceAll("\r", "").replaceAll("\t", "");
-    return Response.fromJson(jsonDecode(val));
+    var resp = Response();
+    try {
+      resp = Response.fromJson(jsonDecode(val));
+    } catch (error) {
+      print(val);
+    }
+    return resp;
   }
 }

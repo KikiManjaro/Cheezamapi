@@ -1,3 +1,6 @@
+## 1.0.9
+- Catch json errors
+
 ## 1.0.8
 - Fix detection box type.
 
