@@ -25,6 +25,10 @@ import 'package:cheezamapi/cheezamapi.dart';
 |---|---|---|---|
 | cheeze | Return a `Response` object containing found infos | File cheeseImage | Future `<Response>` |
 
+## Contributing
+
+Contributions are very welcome on this project! Please see our [contributing guidelines](CONTRIBUTING.md) and [code of conduct](CODE_OF_CONDUCT.md) to get started.
+
 ## License
 
 Created by KikiManjaro from templates made available by Stagehand under a BSD-style
