@@ -1,3 +1,5 @@
+[![Pub](https://img.shields.io/pub/v/cheezamapi.svg)](https://pub.dev/packages/cheezamapi)
+
 # A non-official API for Cheezam
 
 Cheezamapi is a non-official API of [Cheezam](https://www.cheezam.fr/) made using scraping.
