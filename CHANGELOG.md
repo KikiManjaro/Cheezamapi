@@ -1,3 +1,6 @@
+## 1.1.0
+- Cleanup
+
 ## 1.0.9
 - Catch json errors.
 
