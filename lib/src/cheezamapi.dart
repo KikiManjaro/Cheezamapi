@@ -13,6 +13,7 @@ class CheezamApi {
     // open a bytestream
     var stream =
         http.ByteStream(DelegatingStream.typed(cheeseImage.openRead()));
+
     // get file length
     var length = await cheeseImage.length();
 
@@ -38,13 +39,17 @@ class CheezamApi {
 
     // listen for response
     String repStr = await response.stream.bytesToString();
+
+    //clean response
     String val =
         repStr.replaceAll("\n", "").replaceAll("\r", "").replaceAll("\t", "");
+
+    //decode response
     var resp = Response();
     try {
       resp = Response.fromJson(jsonDecode(val));
     } catch (error) {
-      print(val);
+      print(error);
     }
     return resp;
   }

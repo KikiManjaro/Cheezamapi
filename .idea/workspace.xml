@@ -11,10 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="131f2337-8a42-445a-abf6-3d2b3f594f7e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/cheezamapi.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/cheezamapi.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +55,7 @@
   <component name="PropertiesComponent">
     <property name="dart.analysis.tool.window.force.activate" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AnimeSauce/anime_sauce_private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../memepedia" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -91,6 +87,35 @@
       <option name="presentableId" value="Default" />
       <updated>1642185872366</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add CONTRIBUTING.md">
+      <created>1642947834643</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1642947834643</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add CODE_OF_CONDUCT.md">
+      <created>1642947847133</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1642947847133</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Update README.md">
+      <created>1642947937703</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1642947937703</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Clean CHANGELOG.md">
+      <created>1642947963222</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1642947963222</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -110,5 +135,12 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add CONTRIBUTING.md" />
+    <MESSAGE value="Add CODE_OF_CONDUCT.md" />
+    <MESSAGE value="Update README.md" />
+    <MESSAGE value="Clean CHANGELOG.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clean CHANGELOG.md" />
   </component>
 </project>
